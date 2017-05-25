@@ -1,0 +1,22 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: LLVM
+
+# Files should have line lengths of 80 characters.
+ColumnLimit: 80
+
+# No tabs; use spaces. Indent 4 spaces at a time.
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+BreakBeforeBraces: Linux
+IndentCaseLabels: true
+
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+AlignConsecutiveAssignments: true
+Standard: Cpp03
+
